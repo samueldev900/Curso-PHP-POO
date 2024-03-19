@@ -36,57 +36,14 @@ class Lutador{
         
     }
     function status(){
-
-        echo "    
-            <table>
-                <tr>
-                    <td>
-                       Nome: 
-                    </td>
-                    <td>
-                    ".$this->getNome()."
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                    Categoria: 
-                    </td>
-                    <td>
-                    " .$this->getCategoria()."
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Vitórias:
-                    </td>
-                    <td>
-                    " .$this->getVitorias()."
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        Derrotas:
-                    </td>
-                    <td>
-                    " .$this->getDerrotas()."
-                    </td>
-                </tr>
-
-                <tr>
-                <td>
-                    Empates:
-                </td>
-                <td>
-                " .$this->getEmpates()."
-                </td>
-            </tr>
-            </table>";
-/*         echo "<p>".$this->getNome()." é peso ".$this->getCategoria()."<br> 
-        Já ganhou ".$this->getVitorias()." Vezes <br>
-        Perdeu ".$this->getDerrotas()." vezes <br>
-        e Empatou ".$this->getEmpates()." Vezes</p>"; */
+        echo "
+        <table>
+            <tr><td>Nome: </td><td>".$this->getNome()."</td></tr>
+            <tr><td>Categoria: </td><td>" .$this->getCategoria()."</td></tr>
+            <tr><td>Vitórias:</td><td>" .$this->getVitorias()."</td></tr>
+            <tr><td>Derrotas:</td><td>" .$this->getDerrotas()."</td></tr>
+            <tr><td>Empates:</td><td>" .$this->getEmpates()."</td></tr>
+        </table>";        
         
     }   
 
