@@ -20,6 +20,7 @@ class Lutador{
 
 
     public function apresentar() {
+        echo "<p>========================================</p>";
         echo '<table>';
         echo '<tr><td>lutador: </td><td>'.$this->getNome().'</td></tr>' ;
         echo '<tr><td>Nacionalidade: </td><td> '.$this->getNacionalidade().'</td></tr>';
@@ -36,6 +37,7 @@ class Lutador{
         
     }
     function status(){
+        echo "<p>========================================</p>";
         echo "
         <table>
             <tr><td>Nome: </td><td>".$this->getNome()."</td></tr>
