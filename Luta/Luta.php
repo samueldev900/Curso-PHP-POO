@@ -9,8 +9,8 @@
         private $desafiante;
         private $rounds;
         private $aprovada;
-
-
+        
+        
         public function marcarLuta($l1,$l2){
             if($l1->getCategoria() == $l2->getCategoria() && $l1 != $l2){
 
