@@ -8,12 +8,9 @@ interface Publicacao{
     public function folhear($p);
     public function avançarPg();
     public function voltarPg();
-
-
 }
 
 
 
-echo str_repeat($caractere, $numero);
 
 
