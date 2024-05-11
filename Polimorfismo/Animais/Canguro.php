@@ -7,7 +7,7 @@ class Canguro extends Mamifero{
 
     public function locomover(){
 
-        echo "Pulando";
+        echo "    <p>Saltando</p>        ";
 
     }
 
