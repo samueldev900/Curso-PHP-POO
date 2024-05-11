@@ -11,25 +11,15 @@
     
 <pre>
     <?php
-        require_once "Pessoa.php";
-        require_once "Livro.php";
+        require_once "Bolsista.php";
     
 
         $p = array() ;
         $livro = array();
 
-        $p["0"] = new Pessoa("Samuel",24,"Masculino");
+        $p = new Bolsista("Samuel",24,"Masculino");
 
-        $livro[0] = new Livro("A arte de ligar o  foda-se","Mark Manson",300,$p[0]);
-
-
-        $livro[0]->detalhes();
-        $livro[0]->abrir();
-
-        $livro[0]->folhear(190);
-        $livro[0]->detalhes();
-
-    
+        $p->pagarMensalidade();    
     
     
     
